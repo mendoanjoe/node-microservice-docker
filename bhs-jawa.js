@@ -21576,7 +21576,7 @@ function translateJawa() {
 
 //   document.getElementById("translate-ngoko-length").innerHTML = panjangNgoko;
 //   document.getElementById("translate-krama-length").innerHTML = panjangKrama;
-  document.getElementById("translate-result").innerHTML = kalimatBaru;
+  document.getElementById("translate-result").innerText = kalimatBaru;
 }
 
 window.onload = function () {
